@@ -16,8 +16,10 @@ Test Template  Invalid Login Scenarios
 
 *** Variables ***
 
-## CAMBIO FOR CONTROL DE VERSIONES ENTORNO QA2
+## CAMBIO FOR CONTROL DE VERSIONES ENTORNO QA2--- version solo para Q2
 ## CAMBIO FOR CONTROL DE VERSIONES ENTORNO master
+
+
 
 *** Test Cases ***
 Verify Login Fails with Invalid Creds ${username} ${password} ${error_msg}
