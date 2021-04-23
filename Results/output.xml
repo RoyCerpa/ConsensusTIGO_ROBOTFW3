@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210324 14:15:25.804" rpa="false">
+<suite id="s1" name="TDDLoginFailedTest" source="C:\Users\ROY EINER\PycharmProjects\Consensus2.0\TestsCases\TDDLoginFailedTest.robot">
+<test id="s1-t1" name="Verify Login Fails with Invalid Creds RoyCerpa DDT baduka1190 aaaaaa">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:26.711" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:15:26.710" endtime="20210324 14:15:30.520"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:15:30.521" endtime="20210324 14:15:30.657"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:15:32.668" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:15:30.657" endtime="20210324 14:15:32.668"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:26.709" endtime="20210324 14:15:32.668"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>RoyCerpa DDT</arg>
+<arg>baduka1190</arg>
+<arg>aaaaaa</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:32.670" level="INFO">Typing text 'RoyCerpa DDT' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:15:32.670" endtime="20210324 14:15:32.779"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:32.670" endtime="20210324 14:15:32.779"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:32.780" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:15:32.834" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:15:32.897" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:15:32.780" endtime="20210324 14:15:32.897"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:32.780" endtime="20210324 14:15:32.897"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:15:32.898" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:15:36.314" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:15:32.898" endtime="20210324 14:15:36.334"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:32.898" endtime="20210324 14:15:36.335"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:15:37.340" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:15:36.335" endtime="20210324 14:15:37.340"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210324 14:15:37.761" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-58.png"&gt;&lt;img src="selenium-screenshot-58.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210324 14:15:37.377" endtime="20210324 14:15:37.762"></status>
+</kw>
+<msg timestamp="20210324 14:15:37.763" level="FAIL">Page should have contained text 'aaaaaa' but did not.</msg>
+<status status="FAIL" starttime="20210324 14:15:37.340" endtime="20210324 14:15:37.763"></status>
+</kw>
+<status status="FAIL" starttime="20210324 14:15:32.669" endtime="20210324 14:15:37.763"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:15:37.767" endtime="20210324 14:15:40.087"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:37.765" endtime="20210324 14:15:40.088"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="FAIL" starttime="20210324 14:15:26.708" endtime="20210324 14:15:40.089" critical="yes">Page should have contained text 'aaaaaa' but did not.</status>
+</test>
+<test id="s1-t2" name="Verify Login Fails with Invalid Creds admin Password123 DDT Acceso denegado">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:40.093" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:15:40.093" endtime="20210324 14:15:43.944"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:15:43.944" endtime="20210324 14:15:44.102"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:15:46.108" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:15:44.102" endtime="20210324 14:15:46.108"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:40.092" endtime="20210324 14:15:46.108"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>admin</arg>
+<arg>Password123 DDT</arg>
+<arg>Acceso denegado</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:46.110" level="INFO">Typing text 'admin' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:15:46.110" endtime="20210324 14:15:46.204"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:46.109" endtime="20210324 14:15:46.204"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:46.206" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:15:46.255" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:15:46.312" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:15:46.205" endtime="20210324 14:15:46.312"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:46.204" endtime="20210324 14:15:46.312"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:15:46.314" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:15:49.775" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:15:46.313" endtime="20210324 14:15:49.792"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:46.313" endtime="20210324 14:15:49.792"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:15:50.804" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:15:49.792" endtime="20210324 14:15:50.804"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:50.820" level="INFO">Current page contains text 'Acceso denegado'.</msg>
+<status status="PASS" starttime="20210324 14:15:50.804" endtime="20210324 14:15:50.821"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:46.109" endtime="20210324 14:15:50.821"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:15:50.822" endtime="20210324 14:15:53.092"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:50.822" endtime="20210324 14:15:53.092"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" starttime="20210324 14:15:40.091" endtime="20210324 14:15:53.093" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Verify Login Fails with Invalid Creds  baduka1190 Usuario no existe">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:53.095" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:15:53.095" endtime="20210324 14:15:56.836"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:15:56.836" endtime="20210324 14:15:56.970"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:15:58.979" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:15:56.970" endtime="20210324 14:15:58.979"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:53.095" endtime="20210324 14:15:58.979"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>baduka1190</arg>
+<arg>Usuario no existe</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:58.982" level="INFO">Typing text '' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:15:58.982" endtime="20210324 14:15:59.075"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:58.981" endtime="20210324 14:15:59.075"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:15:59.076" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:15:59.127" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:15:59.183" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:15:59.076" endtime="20210324 14:15:59.183"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:59.075" endtime="20210324 14:15:59.184"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:15:59.186" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:16:02.721" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:15:59.185" endtime="20210324 14:16:02.744"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:59.184" endtime="20210324 14:16:02.744"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:03.747" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:16:02.744" endtime="20210324 14:16:03.747"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:03.761" level="INFO">Current page contains text 'Usuario no existe'.</msg>
+<status status="PASS" starttime="20210324 14:16:03.747" endtime="20210324 14:16:03.762"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:15:58.980" endtime="20210324 14:16:03.762"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:16:03.764" endtime="20210324 14:16:06.093"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:03.764" endtime="20210324 14:16:06.094"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" starttime="20210324 14:15:53.094" endtime="20210324 14:16:06.094" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Verify Login Fails with Invalid Creds admin  Acceso denegado">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:06.097" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:16:06.097" endtime="20210324 14:16:10.120"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:16:10.120" endtime="20210324 14:16:10.247"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:12.251" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:16:10.247" endtime="20210324 14:16:12.251"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:06.096" endtime="20210324 14:16:12.252"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>admin</arg>
+<arg>Acceso denegado</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:12.254" level="INFO">Typing text 'admin' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:16:12.253" endtime="20210324 14:16:12.351"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:12.253" endtime="20210324 14:16:12.351"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:12.353" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:16:12.401" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:16:12.447" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:16:12.352" endtime="20210324 14:16:12.448"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:12.352" endtime="20210324 14:16:12.448"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:16:12.449" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:16:15.983" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:16:12.449" endtime="20210324 14:16:15.999"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:12.448" endtime="20210324 14:16:15.999"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:17.011" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:16:16.000" endtime="20210324 14:16:17.011"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:17.029" level="INFO">Current page contains text 'Acceso denegado'.</msg>
+<status status="PASS" starttime="20210324 14:16:17.011" endtime="20210324 14:16:17.029"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:12.252" endtime="20210324 14:16:17.029"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:16:17.030" endtime="20210324 14:16:19.338"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:17.030" endtime="20210324 14:16:19.339"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" starttime="20210324 14:16:06.095" endtime="20210324 14:16:19.339" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Verify Login Fails with Invalid Creds   Usuario no existe">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:19.342" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:16:19.342" endtime="20210324 14:16:23.346"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:16:23.346" endtime="20210324 14:16:23.483"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:25.492" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:16:23.483" endtime="20210324 14:16:25.492"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:19.342" endtime="20210324 14:16:25.492"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>Usuario no existe</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:25.495" level="INFO">Typing text '' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:16:25.495" endtime="20210324 14:16:25.593"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:25.495" endtime="20210324 14:16:25.593"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:25.594" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:16:25.646" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:16:25.690" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:16:25.594" endtime="20210324 14:16:25.690"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:25.593" endtime="20210324 14:16:25.690"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:16:25.691" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:16:28.948" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:16:25.690" endtime="20210324 14:16:28.963"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:25.690" endtime="20210324 14:16:28.963"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:29.978" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:16:28.963" endtime="20210324 14:16:29.978"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:29.996" level="INFO">Current page contains text 'Usuario no existe'.</msg>
+<status status="PASS" starttime="20210324 14:16:29.978" endtime="20210324 14:16:29.996"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:25.494" endtime="20210324 14:16:29.996"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:16:29.998" endtime="20210324 14:16:32.325"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:29.997" endtime="20210324 14:16:32.325"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" starttime="20210324 14:16:19.341" endtime="20210324 14:16:32.326" critical="yes"></status>
+</test>
+<test id="s1-t6" name="Verify Login Fails with Invalid Creds admin baduka1190 ">
+<kw name="Start TestCase" library="DDTcommon" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:32.328" level="INFO">Opening browser 'chrome' to base url 'http://192.168.27.90:1102/latest/'.</msg>
+<status status="PASS" starttime="20210324 14:16:32.328" endtime="20210324 14:16:36.126"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210324 14:16:36.126" endtime="20210324 14:16:36.267"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210324 14:16:38.268" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210324 14:16:36.268" endtime="20210324 14:16:38.268"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:32.328" endtime="20210324 14:16:38.268"></status>
+</kw>
+<kw name="Invalid Login Scenarios">
+<arguments>
+<arg>admin</arg>
+<arg>baduka1190</arg>
+</arguments>
+<kw name="setUsernameLogin" library="DDTLoginPage">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:38.271" level="INFO">Typing text 'admin' into text field 'xpath://*[@id='l-login']/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20210324 14:16:38.270" endtime="20210324 14:16:38.369"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:38.270" endtime="20210324 14:16:38.370"></status>
+</kw>
+<kw name="setPasswordLogin" library="DDTLoginPage">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txtbox_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20210324 14:16:38.371" level="INFO">Typing password into text field 'xpath://*[@id='l-login']/div[2]/div/input'.</msg>
+<msg timestamp="20210324 14:16:38.421" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210324 14:16:38.480" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210324 14:16:38.370" endtime="20210324 14:16:38.480"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:38.370" endtime="20210324 14:16:38.480"></status>
+</kw>
+<kw name="clickButtonLogin" library="DDTLoginPage">
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+<arg>[Return]</arg>
+</arguments>
+<msg timestamp="20210324 14:16:38.482" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id='l-login']/button element.</msg>
+<msg timestamp="20210324 14:17:09.794" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20210324 14:16:38.481" endtime="20210324 14:17:09.824"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:38.481" endtime="20210324 14:17:09.825"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210324 14:17:10.828" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210324 14:17:09.825" endtime="20210324 14:17:10.828"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${error_msg}</arg>
+</arguments>
+<msg timestamp="20210324 14:17:10.860" level="INFO">Current page contains text ''.</msg>
+<status status="PASS" starttime="20210324 14:17:10.828" endtime="20210324 14:17:10.860"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:16:38.269" endtime="20210324 14:17:10.860"></status>
+</kw>
+<kw name="Finish TestCase" library="DDTcommon" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210324 14:17:10.861" endtime="20210324 14:17:13.207"></status>
+</kw>
+<status status="PASS" starttime="20210324 14:17:10.861" endtime="20210324 14:17:13.207"></status>
+</kw>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" starttime="20210324 14:16:32.327" endtime="20210324 14:17:13.208" critical="yes"></status>
+</test>
+<doc>Basic LogIN Invalids Functionality</doc>
+<status status="FAIL" starttime="20210324 14:15:25.808" endtime="20210324 14:17:13.211"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="1">Critical Tests</stat>
+<stat pass="5" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="5" fail="1">Functional</stat>
+</tag>
+<suite>
+<stat pass="5" fail="1" id="s1" name="TDDLoginFailedTest">TDDLoginFailedTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

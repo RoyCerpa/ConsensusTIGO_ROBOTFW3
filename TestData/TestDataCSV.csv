@@ -1,0 +1,3 @@
+${username};${password};${error_msg}
+RoyCerpa;baduka1190;Usuario no existe;
+admin;password123;Acceso denegado;
