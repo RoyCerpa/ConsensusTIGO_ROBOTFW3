@@ -8,6 +8,28 @@ iconoMainPage = "//*[@id='0side-menu']/li[1]/div[1]/img"
 iconoMainPagev2 = "//*[@id='logo_cliente']/img"
 
 
+# Tipo de Documento Contable Locators
+btn_TipDocContable = "//*[@id='side-menu']/li[5]/ul/li[9]/a"
+label_pageTipDocContable = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+
+btn_newTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/xdf-data-table-options-bar/div/button"
+codTipDocContable = "//*[@id='mat-input-0']"
+descTipDocContable = "//*[@id='mat-input-1']"
+btn_saveTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-detail/div/div/div/div[2]/xdf-crud-standard-detail/form/div[2]/div/div/button"
+
+FiltroTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
+FiltroCodTipDocContable = "//*[@id='mat-option-2']"
+FiltroDescTipDocContable = "//*[@id='mat-option-3']"
+FiltrarTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[1]"
+EliminarFiltrosTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
+
+btn_editTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr[1]/td[3]/div/button[1]"
+descEditTipDocContable = "//*[@id='mat-input-1']"
+
+btn_deleteTipDocContable = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr[1]/td[3]/div/button[2]"
+btn_confirmDeleteTipDocContable= "//*[@id='mat-dialog-0']/xdf-confirmation-dialog/div[2]/button[2]"
+
+
 # Forma de Pago Locators
 btn_configuration = "//*[@id='side-menu']/li[5]/a"
 btn_FormaDePago = "//*[@id='side-menu']/li[5]/ul/li[6]/a"
