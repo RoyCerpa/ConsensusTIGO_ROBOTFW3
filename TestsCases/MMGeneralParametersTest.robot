@@ -57,7 +57,7 @@ Verify basic LOGIN OK and CONFIGURE General Parameters - Numeric Format
   Click button Confirmar Format Num Neg
   sleep  2s
 
-# Configurar Formato de Fecha--
+# Configurar Formato de Fecha---
   LinkFormatFecha
   wait until element is visible  //*[@id="tab-3"]/div/div[1]/div[1]/h2
   selectionFormatFecha
