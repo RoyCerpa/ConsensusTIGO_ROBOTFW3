@@ -2,8 +2,9 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${env}  qa
-&{url}  qa=http://192.168.27.90:1102/latest/  dev=192.168.27.90:5002/latest/  qa2=http://192.168.27.90:1002/latest/
+${env}  imp
+&{url}  qa=http://192.168.27.90:5002/latest/#/home  qa2=http://192.168.21.40:1102/latest/#/home  imp=http://192.168.27.90:5002/latest/#/home
+
 
 *** Keywords ***
 Start TestCase
