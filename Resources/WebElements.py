@@ -47,7 +47,6 @@ btn_saveEntidRecaud = "//*[@id='tab-5']/div/div[2]/div/div/div/button"
 btn_confirmEntidRecaud = "//*[@id='mat-dialog-4']/dialog-overview-example-dialog/div[3]/button[2]"
 
 
-
 # Tipo de Documento Contable Locators
 btn_TipDocContable = "//*[@id='side-menu']/li[5]/ul/li[9]/a"
 label_pageTipDocContable = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
@@ -175,6 +174,8 @@ Nombremodv2 ="xpath://*[@id='mat-input-0']"
 #Nombremodv2 ="css:#mat-input-4"
 Descripcionmod = "//*[@id=\'mat-input-5\']"
 Descripcionmodv2 = "xpath://*[@id=\'mat-input-2\']"
+
+
 
 
 
