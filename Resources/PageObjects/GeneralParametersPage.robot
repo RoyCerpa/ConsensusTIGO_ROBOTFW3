@@ -110,7 +110,7 @@ Click button Confirmar Config Contab
     sleep  2s
 
 
-# Entidad recaudadora
+# Entidad recaudadora--
 LinkEntidRecaud
    click element  ${linkEntidRecaud}
    wait until element is visible  //*[@id="tab-5"]/div/div[1]/div[1]/h2

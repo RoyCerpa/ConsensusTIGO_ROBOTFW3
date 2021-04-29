@@ -126,7 +126,7 @@ Verify basic LOGIN OK and DELETE Forma de Pago
     sleep  2s
     page should contain  Mantenimiento de forma de pago
 
-# Búsqueda y Eliminación de Forma de Pago
+# Búsqueda y Eliminación de Forma de Pago--
     clickFiltrosFormaPago
     Wait until element is visible  //*[@id='mat-option-3']
     setFiltrosFormaPago  Forma de Pago Edición by Test Robot
