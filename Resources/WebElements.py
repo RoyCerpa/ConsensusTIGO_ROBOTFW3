@@ -7,7 +7,7 @@ btn_login = "xpath://*[@id='l-login']/button"
 iconoMainPage = "//*[@id='0side-menu']/li[1]/div[1]/img"
 iconoMainPagev2 = "//*[@id='logo_cliente']/img"
 
-# Parámetros Generales ---
+# Parámetros Generales
 btn_ParamGeneral = "//*[@id='side-menu']/li[5]/ul/li[8]/a"
 label_pageParamGeneral = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
 formatNum = "//*[@id='mat-select-1']/div/div[1]"
