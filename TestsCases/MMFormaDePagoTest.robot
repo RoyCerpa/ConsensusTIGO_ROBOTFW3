@@ -32,7 +32,7 @@ Verify basic LOGIN OK and CREATE NEW Forma de Pago
     sleep  2s
     Wait until element is visible  ${label_pageFormaDePago}
     sleep  2s
-    page should contain  Mantenimiento de Forma de Pago
+    page should contain  Mantenimiento de forma de pago
 
 # Registro de nueva Forma de Pago
    Click button New Forma de Pago
@@ -50,7 +50,7 @@ Verify basic LOGIN OK and CREATE NEW Forma de Pago
 
    Click button Save Forma de Pago
    sleep  2s
-   Page Should Contain  Mantenimiento de Forma de Pago
+   Page Should Contain  Mantenimiento de forma de pago
 
 
 
@@ -73,7 +73,7 @@ Verify basic LOGIN OK and EDIT Forma de Pago
     sleep  2s
     Wait until element is visible  ${label_pageFormaDePago}
     sleep  2s
-    page should contain  Mantenimiento de Forma de Pago
+    page should contain  Mantenimiento de forma de pago
 
 # Búsqueda y Edición de Forma de Pago
     clickFiltrosFormaPago
@@ -100,7 +100,7 @@ Verify basic LOGIN OK and EDIT Forma de Pago
     Click button Save Forma de Pago
     Click button Edicion Confirmada
     sleep  2s
-    Page Should Contain  Mantenimiento de Forma de Pago
+    Page Should Contain  Mantenimiento de forma de pago
     clickEliminarFiltrosFormaPago
 
 
@@ -124,7 +124,7 @@ Verify basic LOGIN OK and DELETE Forma de Pago
     sleep  2s
     Wait until element is visible  ${label_pageFormaDePago}
     sleep  2s
-    page should contain  Mantenimiento de Forma de Pago
+    page should contain  Mantenimiento de forma de pago
 
 # Búsqueda y Eliminación de Forma de Pago
     clickFiltrosFormaPago
@@ -138,7 +138,7 @@ Verify basic LOGIN OK and DELETE Forma de Pago
 
     Click button Delete Forma de Pago
     Click button Eliminacion Confirmada
-    page should contain  Mantenimiento de Forma de Pago
+    page should contain  Mantenimiento de forma de pago
     clickEliminarFiltrosFormaPago
 
 

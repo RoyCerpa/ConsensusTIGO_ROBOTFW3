@@ -7,6 +7,46 @@ btn_login = "xpath://*[@id='l-login']/button"
 iconoMainPage = "//*[@id='0side-menu']/li[1]/div[1]/img"
 iconoMainPagev2 = "//*[@id='logo_cliente']/img"
 
+# Parámetros Generales
+btn_ParamGeneral = "//*[@id='side-menu']/li[5]/ul/li[8]/a"
+label_pageParamGeneral = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+formatNum = "//*[@id='mat-select-1']/div/div[1]"
+formatNum1 = "//*[@id='mat-option-8']"
+formatNum2 = "//*[@id='mat-option-9']"
+btn_saveformatNum = "//*[@id='tab-1']/div/div[2]/div/div/div/button"
+btn_confirmformatNum = "//*[@id='mat-dialog-0']/dialog-overview-example-dialog/div[3]/button[2]"
+
+linkOtrasOpciones = "//*[@id='page-wrapper']/div/byte-general-parameter/div/div/div/form/div/div/ul/li[2]/a"
+formatNumNeg = "//*[@id='mat-select-2']/div/div[1]"
+formatNumNull = "//*[@id='mat-option-2']"
+formatNumNeg1 = "//*[@id='mat-option-3']"
+formatNumNeg2 = "//*[@id='mat-option-4']"
+selectCheck = "//*[@id='mat-checkbox-1']/label/div"
+btn_saveOtrasOpciones = "//*[@id='tab-2']/div/div[2]/div/div/div/button"
+btn_confirmOtrasOpciones = "//*[@id='mat-dialog-1']/dialog-overview-example-dialog/div[3]/button[2]"
+
+linkFormatFecha = "//*[@id='page-wrapper']/div/byte-general-parameter/div/div/div/form/div/div/ul/li[3]/a"
+FormatFecha = "//*[@id='mat-select-3']/div/div[1]"
+FormatFechaNull = "//*[@id='mat-option-5']"
+FormatFecha1 = "//*[@id='mat-option-6']"
+FormatFecha2 = "//*[@id='mat-option-7']"
+btn_saveFormatFecha = "//*[@id='tab-3']/div/div[2]/div/div/div/button"
+btn_confirmFormatFecha= "//*[@id='mat-dialog-2']/dialog-overview-example-dialog/div[3]/button[2]"
+
+linkConfigContable = "//*[@id='page-wrapper']/div/byte-general-parameter/div/div/div/form/div/div/ul/li[4]/a"
+MinCtaCont = "//*[@id='mat-input-0']"
+MaxCtaCont = "//*[@id='mat-input-1']"
+selectCheck1 = "//*[@id='mat-checkbox-2']/label/div"
+selectCheck2 = "//*[@id='mat-checkbox-3']/label/div"
+btn_saveConfigContab = "//*[@id='tab-4']/div/div[2]/div/div/div/button"
+btn_confirmConfigContab = "//*[@id='mat-dialog-3']/dialog-overview-example-dialog/div[3]/button[2]"
+
+linkEntidRecaud = "//*[@id='page-wrapper']/div/byte-general-parameter/div/div/div/form/div/div/ul/li[5]/a"
+diasLatencia = "//*[@id='mat-input-2']"
+btn_saveEntidRecaud = "//*[@id='tab-5']/div/div[2]/div/div/div/button"
+btn_confirmEntidRecaud = "//*[@id='mat-dialog-4']/dialog-overview-example-dialog/div[3]/button[2]"
+
+
 
 # Tipo de Documento Contable Locators
 btn_TipDocContable = "//*[@id='side-menu']/li[5]/ul/li[9]/a"

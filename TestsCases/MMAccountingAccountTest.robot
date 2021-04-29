@@ -45,6 +45,7 @@ Verify basic LOGIN OK and CREATE NEW Cuenta Contable
 
    LinkEquivalenciaComercial
    wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[1]/h2
+   sleep  3s
    setSistemaOrigenSAP  123456
    sleep  2s
 
