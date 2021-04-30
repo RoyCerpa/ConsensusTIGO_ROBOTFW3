@@ -27,7 +27,7 @@ selectionAcreedora
 
 LinkEquivalenciaComercial
    click element  ${LinkEquivalComer}
-   wait until element is visible  //*[@id='tab-2']/div/byte-commercial-equivalence-commons/div/div[1]/h2
+   wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[2]/div
 
 setSistemaOrigenSAP
     [Arguments]  ${SistemaOrigenSAP}

@@ -18,7 +18,7 @@ Verify Result Expected for USER NAME Incorrect
     sleep  2s
 
 Verify Result Expected for PASSWORD Incorrect
-    Page Should Contain  Acceso denegado
+    Page Should Contain  Contraseña incorrecta
     sleep  2s
 
 

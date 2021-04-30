@@ -36,7 +36,7 @@ Verify basic LOGIN OK and CONFIGURE General Parameters - Numeric Format
 # Configurar Formato Numérico
   selectionFormatNum
   sleep  2s
-  selectionFormatNum1
+  selectionFormatNum2
   sleep  2s
   Click button Save Format Num
   sleep  2s
@@ -48,7 +48,7 @@ Verify basic LOGIN OK and CONFIGURE General Parameters - Numeric Format
   wait until element is visible  //*[@id="tab-2"]/div/div[1]/div[1]/h2
   selectionFormatNumNeg
   sleep  2s
-  selectionFormatNumNeg2
+  selectionFormatNumNeg1
   sleep  2s
   selectCheck
   sleep  2s
@@ -62,7 +62,7 @@ Verify basic LOGIN OK and CONFIGURE General Parameters - Numeric Format
   wait until element is visible  //*[@id="tab-3"]/div/div[1]/div[1]/h2
   selectionFormatFecha
   sleep  2s
-  selectionFormatFecha1
+  selectionFormatFecha2
   sleep  2s
   Click button Save Format fecha
   sleep  2s
@@ -74,7 +74,7 @@ Verify basic LOGIN OK and CONFIGURE General Parameters - Numeric Format
   wait until element is visible  //*[@id="tab-4"]/div/div[1]/div[1]/h2
   setMinCtaCont  6
   sleep  2s
-  setMaxCtaCont  18
+  setMaxCtaCont  10
   sleep  2s
   SelectCheck1
   sleep  2s

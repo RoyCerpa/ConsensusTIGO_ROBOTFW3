@@ -44,8 +44,7 @@ Verify basic LOGIN OK and CREATE NEW Cuenta Contable
    sleep  2s
 
    LinkEquivalenciaComercial
-   wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[1]/h2
-   sleep  3s
+   wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[2]/div
    setSistemaOrigenSAP  123456
    sleep  2s
 
@@ -100,7 +99,7 @@ Verify basic LOGIN OK and EDIT Cuenta Contable
     sleep  2s
 
     LinkEquivalenciaComercial
-    wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[1]/h2
+    wait until element is visible  //*[@id="tab-2"]/div/byte-commercial-equivalence-commons/div/div[2]/div
     setSistemaOrigenSAPEdit  654321
     sleep  2s
 
