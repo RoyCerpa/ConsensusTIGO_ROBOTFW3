@@ -223,6 +223,41 @@ Descripcionmodv2 = "xpath://*[@id=\'mat-input-2\']"
 
 
 
+# Home ReasonforDifference Maintenance Locators
+btnconfiguration = "xpath://*[@id='side-menu']/li[5]/a"
+btn_ReasonDifference = "xpath://*[@id='side-menu']/li[5]/ul/li[7]/a"
+labelPageSupportDocument = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+boton_Nuevo = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/xdf-data-table-options-bar/div/button"
+boton_Guardar = "//*[@id='page-wrapper']/div/xdf-crud-detail/div/div/div/div[2]/xdf-crud-standard-detail/form/div[2]/div/div/button"
+Opcion_Filtro = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
+FiltroById = "//*[@id='mat-option-365']/span/span"
+FiltroByDescripcion = "//*[@id='mat-option-366']/span/span"
+Btn_Eliminar = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[2]"
+Opcion_Buscar = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[1]"
+# pendiente de implementacion --> listaDocumentos = "//table[@class='crud-table table table-striped table-hover mat-table']"
+Btn_Editar = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[1]"
+BtnConfirma_Eliminacion = "//*[@id='mat-dialog-0']/xdf-confirmation-dialog/div[2]/button[2]"
+BtnDesactivar_Filtro = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
+
+# Home Support Document Maintenance Create Locators
+DescricionMotivo = "xpath://*[@id=\'mat-input-1\']"
+CtaContableAsociaca = "//*[@id='mat-select-27']/div/div[1]/span"
+OptionCtaConAsociada = "//*[@id='mat-option-753']/span"
+TipoDocContable = "//*[@id='mat-select-28']/div/div[1]/span"
+OptionTipoDocContable = "//*[@id='mat-option-740']/span"
+
+DescricionMotivomod = "//*[@id='mat-input-7']"
+
+CtaContableAsociacamod = "//*[@id='mat-select-31']/div/div[1]/span/span"
+#//*[@id='mat-select-31']/div/div[1]/span/span
+#//*[@id='mat-select-31']/div/div[1]
+OptionCtaConAsociadamod = "//*[@id='mat-option-875']/span"
+TipoDocContablemod = "//*[@id='mat-select-32']/div/div[1]/span/span"
+#//*[@id='mat-select-32']/div/div[1]/span/span
+#//*[@id="mat-select-32"]/div/div[1]
+OptionTipoDocContablemod = "//*[@id='mat-option-862']/span"
+
+
 
 
 
