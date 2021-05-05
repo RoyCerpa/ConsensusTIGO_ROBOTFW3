@@ -8,7 +8,7 @@ Resource  ../Resources/PageObjects/ReasonforDifferenceMaintenancePage.robot
 Resource  ../Resources/PageObjects/ReasonforDifferenceMaintenanceCreatePage.robot
 
 Test Setup      CommonFunctionality.Start TestCase
-#Test Teardown   CommonFunctionality.Finish TestCase
+Test Teardown   CommonFunctionality.Finish TestCase
 
 *** Variables ***
 
