@@ -7,15 +7,15 @@ ${AssertError}  Set variable  FALSE
 
 *** Keywords ***
 clicNuevoMotivoDiferencia
-    click button  ${boton_Nuevo}
+    click button  ${boton_Nuevov3}
     sleep  2s
 
 clicbotonGuardarMotivo
-    click button  ${boton_Guardar}
+    click button  ${boton_Guardarvf}
     sleep  2s
 
 clicOpcionFiltro
-    click button  ${Opcion_Filtro}
+    click button  ${Opcion_Filtrovf}
     sleep  2s
 
 clicFiltroByID
@@ -23,16 +23,16 @@ clicFiltroByID
     sleep  2s
 
 clicFiltroByDescripcion
-    click button  ${FiltroByDescripcion}
+    click button  ${FiltroByDescripcionvf}
     sleep  2s
 
 clicBuscar
-    click button  ${Opcion_Buscar}
+    click button  ${Opcion_Buscarvf}
     sleep  2s
 
 setFiltroBasico
     [Arguments]  ${OpFiltro}
-    input text  ${Opcion_Filtro}  ${OpFiltro}
+    input text  ${Opcion_Filtrovf}  ${OpFiltro}
     sleep  2s
 
 ClickDesactivarFiltro
@@ -48,7 +48,7 @@ ClickBotonEliminar
     sleep  2s
 
 ClickEliminacionConfirmada
-    click button  ${BtnConfirma_Eliminacion}
+    click button  ${BtnConfirma_Eliminacionv2}
     sleep  2s
 
 existeDocumento

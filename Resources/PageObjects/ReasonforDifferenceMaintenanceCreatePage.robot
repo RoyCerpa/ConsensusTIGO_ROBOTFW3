@@ -12,10 +12,10 @@ setDescripcionMotivo
     sleep  2s
 #    wait until element is visible  //*[@id='tab-1']/div/div[1]/div[1]/h2
 
-selectionCtaContableAsociaca
-    click element  ${CtaContableAsociaca}
+selectionCtaContableAsociada
+    click element  ${CtaContableAsociadavf}
 
-selectionOptCtaContableAsociaca
+selectionOptCtaContableAsociada
     click element  ${OptionCtaConAsociada}
 
 selectionTipoDocContable
@@ -27,20 +27,20 @@ selectionOptTipoDocContable
 
 setDescripcionMotivoMOD
     [Arguments]  ${Abrev}
-    input text  ${DescricionMotivomod}  ${Abrev}
+    input text  ${DescricionMotivomod}  ${Abrev}  clear=true
     sleep  2s
 #    wait until element is visible  //*[@id='tab-1']/div/div[1]/div[1]/h2
 
-selectionCtaContableAsociacaMOD
-    click element  ${CtaContableAsociacamod}
+selectionCtaContableAsociadaMOD
+    click element  ${CtaContableAsociadamod}
 
-selectionOptCtaContableAsociacaMOD
+selectionOptCtaContableAsociadaMOD
     click element  ${OptionCtaConAsociadamod}
 
 selectionTipoDocContableMOD
     click element  ${TipoDocContablemod}
 
-selectionOptCtaContableAsociacaMOD
+selectionOptTipoDocContableMOD
     click element  ${OptionTipoDocContablemod}
 
 
