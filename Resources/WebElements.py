@@ -241,7 +241,7 @@ BtnConfirma_Eliminacionv2 = "//*[@id='mat-dialog-0']/xdf-confirmation-dialog/div
 #//*[@id="mat-dialog-0"]/xdf-confirmation-dialog/div[2]/button[2]
 BtnDesactivar_Filtro = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
 
-# Home ReasonforDifference Maintenance Locators
+# Home ReasonforDifference Create Maintenance Locators
 DescricionMotivo = "xpath://*[@id='mat-input-0']"
 
 CtaContableAsociadavf = "//*[@id='mat-select-3']/div/div[1]"
@@ -265,28 +265,67 @@ OptionTipoDocContablemod = "//*[@id='mat-option-15']"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#HomePageSearchTextBox = "xpath://*[@id='gh-ac']"
-#HomePageSearchButton = "xpath://*[@id='gh-btn']"
-#HomePageAdvancedSearchLink = "xpath://*[@id='gh-as-a']"
+# Home CommercialEquivalences Maintenance Locators
+btnconfigurationEq = "xpath://*[@id='side-menu']/li[5]/a"
+btn_CommercialEq = "xpath://*[@id='side-menu']/li[5]/ul/li[5]/a"
+labelPageCommercialEq = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+# boton_NuevoEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/xdf-data-table-options-bar/div/button"
+#
+# boton_GuardarEq = "//*[@id='page-wrapper']/div/xdf-crud-detail/div/div/div/div[2]/xdf-crud-standard-detail/form/div[2]/div/div/button"
+# Opcion_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
+# FiltroByIdEq = "//*[@id='mat-option-365']/span/span"
+# FiltroByDescripcionEq = "//*[@id='mat-option-3']"
+# Btn_EliminarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[2]"
+# Opcion_BuscarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[1]"
+# # pendiente de implementacion --> listaDocumentos = "//table[@class='crud-table table table-striped table-hover mat-table']"
+# Btn_EditarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[1]"
+# BtnConfirma_EliminacionEq = "//*[@id='mat-dialog-0']/xdf-confirmation-dialog/div[2]/button[2]"
+# #//*[@id="mat-dialog-0"]/xdf-confirmation-dialog/div[2]/button[2]
+# BtnDesactivar_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
+#
+# # Home CommercialEquivalences Create Maintenance Locators
+# DescricionMotivoEq = "xpath://*[@id='mat-input-0']"
+#
+# CtaContableAsociadaEq = "//*[@id='mat-select-3']/div/div[1]"
+# OptionCtaConAsociadaEq = "//*[@id='mat-option-26']"
+# TipoDocContableEq = "//*[@id='mat-select-4']/div/div[1]"
+# OptionTipoDocContableEq = "//*[@id='mat-option-10']"
+#
+#
+# DescricionMotivomodEq = "//*[@id='mat-input-0']"
+# #//*[@id="mat-input-0"]
+#
+# CtaContableAsociadamodEq = "//*[@id='mat-select-3']/div/div[1]"
+# #//*[@id='mat-select-31']/div/div[1]/span/span
+# #//*[@id='mat-select-31']/div/div[1]
+# OptionCtaConAsociadamodEq = "//*[@id='mat-option-28']"
+#
+# TipoDocContablemodEq = "//*[@id='mat-select-4']/div/div[1]"
+# #//*[@id='mat-select-32']/div/div[1]/span/span
+# #//*[@id="mat-select-32"]/div/div[1]
+# OptionTipoDocContablemodEq = "//*[@id='mat-option-15']"
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# #HomePageSearchTextBox = "xpath://*[@id='gh-ac']"
+# #HomePageSearchButton = "xpath://*[@id='gh-btn']"
+# #HomePageAdvancedSearchLink = "xpath://*[@id='gh-as-a']"
