@@ -272,31 +272,24 @@ labelPageCommercialEq = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]
 
 boton_NuevoEq = "//*[@id='page-wrapper']/div/byte-commercial-equivalences-list/div/div/div/div/div[2]/div/div[2]/button"
 boton_GuardarEq = "//*[@id='tab-7']/div/div[3]/div/div/div/button"
-
-boton_SeccionVal_Origen="//*[@class='nav-link']"
-#"//*[@id='page-wrapper']/div/byte-commercial-equivalences-detail/div/div/div/div/div/ul/li[2]/a"
-#                        //*[@id="page-wrapper"]/div/byte-commercial-equivalences-detail/div/div/div/div/div/ul/li[2]/a
-Opcion_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
+SeccionVal_Origen="//*[@id='page-wrapper']/div/byte-commercial-equivalences-detail/div/div/div/div/div/ul/li[2]/a"
+Opcion_FiltroEq = "//*[@id='page-wrapper']/div/byte-commercial-equivalences-list/div/div/div/div/div[2]/div/div[1]/div[1]/xdf-ngx-tags-input/div/input[1]"
 # FiltroByIdEq = "//*[@id='mat-option-365']/span/span"
-# FiltroByDescripcionEq = "//*[@id='mat-option-3']"
-# Btn_EliminarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[2]"
-# Opcion_BuscarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[1]"
-# # pendiente de implementacion --> listaDocumentos = "//table[@class='crud-table table table-striped table-hover mat-table']"
-# Btn_EditarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[1]"
-# BtnConfirma_EliminacionEq = "//*[@id='mat-dialog-0']/xdf-confirmation-dialog/div[2]/button[2]"
-# #//*[@id="mat-dialog-0"]/xdf-confirmation-dialog/div[2]/button[2]
-# BtnDesactivar_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
-#
+FiltroByDescripcionEq = "//*[@id='mat-option-4']"
+Opcion_BuscarEq = "//*[@id='page-wrapper']/div/byte-commercial-equivalences-list/div/div/div/div/div[2]/div/div[1]/div[1]/xdf-ngx-tags-input/div/button[1]"
+Btn_EditarEq = "//*[@id='page-wrapper']/div/byte-commercial-equivalences-list/div/div/div/div/div[2]/div/div[1]/div[2]/div/div/table/tbody/tr/td[5]/div/button"
+
 # Home CommercialEquivalences Create Maintenance Locators
 SelectionConceptoEq = "xpath://*[@id='mat-select-3']/div/div[1]"
-#//*[@id="mat-select-3"]/div/div[1]/span
 OptionEq = "//*[@id='mat-option-9']"
-
 DescriptionEq = "//*[@id='mat-input-0']"
-#//*[@id="mat-input-3"]
 SelectionOptionTipoEq = "//*[@id='mat-radio-3']"
 SelectionOptionVP ="//*[@id='mat-radio-6']"
-#
+SelectionOptionVPRevert ="//*[@id='mat-radio-5']"
+
+DescriptionEqMod = "//*[@id='mat-input-0']"
+SelectionOptionTipoEqMod = "//*[@id='mat-radio-2']"
+SelectionOptionVPMod ="//*[@id='mat-radio-6']"
 #
 # DescricionMotivomodEq = "//*[@id='mat-input-0']"
 # #//*[@id="mat-input-0"]

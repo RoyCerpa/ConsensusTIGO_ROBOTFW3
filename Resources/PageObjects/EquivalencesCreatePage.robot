@@ -7,22 +7,41 @@ Variables  ../WebElements.py
 
 *** Keywords ***
 
-selectionConceptoEq
+selectionConcepto
     click element  ${SelectionConceptoEq}
+    sleep  2s
 
-selectionOptionConceptoEq
+selectionOptionConcepto
     click element  ${OptionEq}
+    sleep  2s
 
-setDescripcionEq
+setDescripcion
     [Arguments]  ${Abrev}
     input text  ${DescriptionEq}  ${Abrev}
     sleep  2s
 
-selectionOptionTipoEq
+selectionOptionTipo
     click element  ${SelectionOptionTipoEq}
+    sleep  2s
 
 selectionOptionVP
     click element  ${SelectionOptionVP}
+    sleep  2s
 
 
+setDescripcionMod
+    [Arguments]  ${Abrev}
+    input text  ${DescriptionEqMod}  ${Abrev}  clear=true
+    sleep  2s
 
+selectionOptionTipoMod
+    click element  ${SelectionOptionTipoEqMod}
+    sleep  2s
+
+selectionOptionVPMod
+    click element  ${SelectionOptionVPMod}
+    sleep  2s
+
+selectionOptionVPRevert
+    click element  ${SelectionOptionVPRevert}
+    sleep  2s

@@ -6,50 +6,52 @@ Variables  ../WebElements.py
 ${AssertError}  Set variable  FALSE
 
 *** Keywords ***
-clicNuevoCommercialEq
+
+clicNuevoCommercial
     click button  ${boton_NuevoEq}
     sleep  2s
 
-clicbotonGuardarEq
+clicbotonGuardar
     click button  ${boton_GuardarEq}
     sleep  2s
 
-clicSeccionValoresOrigenEq
-    click button  ${boton_SeccionVal_Origen}
+clicSeccionValoresOrigen
+    click element  ${SeccionVal_Origen}
     sleep  2s
-
-
-
-
-
 
 clicOpcionFiltroEq
     click button  ${Opcion_FiltroEq}
     sleep  2s
 
-clicFiltroByID
+setFiltroBasico
+    [Arguments]  ${OpFiltro}
+    input text  ${Opcion_FiltroEq}  ${OpFiltro}
+    sleep  2s
+
+clicFiltroById
     click button  ${FiltroById}
     sleep  2s
 
+clicFiltroByConcepto
+    click button  ${FiltroByConceptoEq}
+    sleep  2s
+
 clicFiltroByDescripcion
-    click button  ${FiltroByDescripcionvf}
-    sleep  2s
-
-clicBuscar
-    click button  ${Opcion_Buscarvf}
-    sleep  2s
-
-setFiltroBasico
-    [Arguments]  ${OpFiltro}
-    input text  ${Opcion_Filtrovf}  ${OpFiltro}
+    click element  ${FiltroByDescripcionEq}
     sleep  2s
 
 ClickDesactivarFiltro
-    click button  ${BtnDesactivar_Filtro}
+    click button  ${BtnDesactivar_FiltroEq}
     sleep  2s
 
+clicBuscar
+    click button  ${Opcion_BuscarEq}
+    sleep  2s
+
+
+
 ClickBotonEditar
-    click button  ${Btn_Editar}
+    click button  ${Btn_EditarEq}
     sleep  2s
 
 ClickBotonEliminar
@@ -84,3 +86,7 @@ retornoNombre
 retornofiltroBusqueda
 
 existePerfilEdit
+
+
+
+#Obsoleto
