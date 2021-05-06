@@ -269,10 +269,14 @@ OptionTipoDocContablemod = "//*[@id='mat-option-15']"
 btnconfigurationEq = "xpath://*[@id='side-menu']/li[5]/a"
 btn_CommercialEq = "xpath://*[@id='side-menu']/li[5]/ul/li[5]/a"
 labelPageCommercialEq = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
-# boton_NuevoEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/xdf-data-table-options-bar/div/button"
-#
-# boton_GuardarEq = "//*[@id='page-wrapper']/div/xdf-crud-detail/div/div/div/div[2]/xdf-crud-standard-detail/form/div[2]/div/div/button"
-# Opcion_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
+
+boton_NuevoEq = "//*[@id='page-wrapper']/div/byte-commercial-equivalences-list/div/div/div/div/div[2]/div/div[2]/button"
+boton_GuardarEq = "//*[@id='tab-7']/div/div[3]/div/div/div/button"
+
+boton_SeccionVal_Origen="//*[@class='nav-link']"
+#"//*[@id='page-wrapper']/div/byte-commercial-equivalences-detail/div/div/div/div/div/ul/li[2]/a"
+#                        //*[@id="page-wrapper"]/div/byte-commercial-equivalences-detail/div/div/div/div/div/ul/li[2]/a
+Opcion_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/input[1]"
 # FiltroByIdEq = "//*[@id='mat-option-365']/span/span"
 # FiltroByDescripcionEq = "//*[@id='mat-option-3']"
 # Btn_EliminarEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[2]/table/tbody/tr/td[4]/div/button[2]"
@@ -283,13 +287,15 @@ labelPageCommercialEq = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]
 # #//*[@id="mat-dialog-0"]/xdf-confirmation-dialog/div[2]/button[2]
 # BtnDesactivar_FiltroEq = "//*[@id='page-wrapper']/div/xdf-crud-grid/div/div/div/div[2]/xdf-data-table/div/div/div[1]/xdf-ngx-tags-input/div/button[2]"
 #
-# # Home CommercialEquivalences Create Maintenance Locators
-# DescricionMotivoEq = "xpath://*[@id='mat-input-0']"
-#
-# CtaContableAsociadaEq = "//*[@id='mat-select-3']/div/div[1]"
-# OptionCtaConAsociadaEq = "//*[@id='mat-option-26']"
-# TipoDocContableEq = "//*[@id='mat-select-4']/div/div[1]"
-# OptionTipoDocContableEq = "//*[@id='mat-option-10']"
+# Home CommercialEquivalences Create Maintenance Locators
+SelectionConceptoEq = "xpath://*[@id='mat-select-3']/div/div[1]"
+#//*[@id="mat-select-3"]/div/div[1]/span
+OptionEq = "//*[@id='mat-option-9']"
+
+DescriptionEq = "//*[@id='mat-input-0']"
+#//*[@id="mat-input-3"]
+SelectionOptionTipoEq = "//*[@id='mat-radio-3']"
+SelectionOptionVP ="//*[@id='mat-radio-6']"
 #
 #
 # DescricionMotivomodEq = "//*[@id='mat-input-0']"

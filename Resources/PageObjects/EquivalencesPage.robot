@@ -6,16 +6,25 @@ Variables  ../WebElements.py
 ${AssertError}  Set variable  FALSE
 
 *** Keywords ***
-clicNuevoMotivoDiferencia
-    click button  ${boton_Nuevov3}
+clicNuevoCommercialEq
+    click button  ${boton_NuevoEq}
     sleep  2s
 
-clicbotonGuardarMotivo
-    click button  ${boton_Guardarvf}
+clicbotonGuardarEq
+    click button  ${boton_GuardarEq}
     sleep  2s
 
-clicOpcionFiltro
-    click button  ${Opcion_Filtrovf}
+clicSeccionValoresOrigenEq
+    click button  ${boton_SeccionVal_Origen}
+    sleep  2s
+
+
+
+
+
+
+clicOpcionFiltroEq
+    click button  ${Opcion_FiltroEq}
     sleep  2s
 
 clicFiltroByID
