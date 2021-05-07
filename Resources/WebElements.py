@@ -248,9 +248,11 @@ CtaContableAsociadavf = "//*[@id='mat-select-3']/div/div[1]"
 OptionCtaConAsociada = "//*[@id='mat-option-26']"
 TipoDocContable = "//*[@id='mat-select-4']/div/div[1]"
 OptionTipoDocContable = "//*[@id='mat-option-10']"
+OptionTipoDocContable2 = "//*[@id='mat-option-116']"
 
 
 DescricionMotivomod = "//*[@id='mat-input-0']"
+DescricionMotivomod2 = "//*[@id='mat-input-0']"
 #//*[@id="mat-input-0"]
 
 CtaContableAsociadamod = "//*[@id='mat-select-3']/div/div[1]"
@@ -259,9 +261,10 @@ CtaContableAsociadamod = "//*[@id='mat-select-3']/div/div[1]"
 OptionCtaConAsociadamod = "//*[@id='mat-option-28']"
 
 TipoDocContablemod = "//*[@id='mat-select-4']/div/div[1]"
-#//*[@id='mat-select-32']/div/div[1]/span/span
-#//*[@id="mat-select-32"]/div/div[1]
+# //*[@id='mat-select-32']/div/div[1]/span/span
+# //*[@id="mat-select-32"]/div/div[1]
 OptionTipoDocContablemod = "//*[@id='mat-option-15']"
+OptionTipoDocContablemod2 = "//*[@id='mat-option-116']"
 
 
 
@@ -289,7 +292,7 @@ SelectionOptionVPRevert ="//*[@id='mat-radio-5']"
 
 DescriptionEqMod = "//*[@id='mat-input-0']"
 SelectionOptionTipoEqMod = "//*[@id='mat-radio-2']"
-SelectionOptionVPMod ="//*[@id='mat-radio-6']"
+SelectionOptionVPMod = "//*[@id='mat-radio-6']"
 #
 # DescricionMotivomodEq = "//*[@id='mat-input-0']"
 # #//*[@id="mat-input-0"]

@@ -8,7 +8,7 @@ Resource  ../Resources/PageObjects/EquivalencesPage.robot
 Resource  ../Resources/PageObjects/EquivalencesCreatePage.robot
 
 Test Setup      CommonFunctionality.Start TestCase
-Test Teardown   CommonFunctionality.Finish TestCase
+#Test Teardown   CommonFunctionality.Finish TestCase
 
 *** Variables ***
 

@@ -24,6 +24,9 @@ selectionTipoDocContable
 selectionOptTipoDocContable
     click element  ${OptionTipoDocContable}
 
+selectionOptTipoDocContable2
+    click element  ${OptionTipoDocContable2}
+
 
 setDescripcionMotivoMOD
     [Arguments]  ${Abrev}
@@ -42,5 +45,8 @@ selectionTipoDocContableMOD
 
 selectionOptTipoDocContableMOD
     click element  ${OptionTipoDocContablemod}
+
+selectionOptTipoDocContableMOD2
+    click element  ${OptionTipoDocContablemod2}
 
 
