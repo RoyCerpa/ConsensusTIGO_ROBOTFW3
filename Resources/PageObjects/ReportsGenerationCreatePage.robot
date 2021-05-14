@@ -70,3 +70,7 @@ selectionYearIC2
 selectionOptYearIC2
     click element  ${RG_optYearIC2}
     Sleep  2s
+
+selectionOptYearIC3
+    click element  ${RG_optYearIC3}
+    Sleep  2s

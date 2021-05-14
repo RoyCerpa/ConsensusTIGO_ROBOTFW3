@@ -161,10 +161,14 @@ SCM_inpEqComercialSAP_RV = "//*[@id='mat-input-1']"
 
 # ReportsGeneration Access Locators (RG)
 RG_btnGestReport = "xpath://*[@id='side-menu']/li[7]/a"
+RG_btnGestReportQuery = "xpath://*[@id='side-menu']/li[11]/a"
+RG_btnGestReportQueryIU = "xpath://*[@id='side-menu']/li[11]/ul/li[1]/a"
+RG_btnGestReportQueryAC = "xpath://*[@id='side-menu']/li[11]/ul/li[2]/a"
 RG_secRConsolidado = "xpath://*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[3]/div/div/div[1]"
 RG_secRInfConciliation = "xpath://*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[4]/div/div/div[1]"
 RG_lblEncabezado = "xpath://*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
 
+#//*[@id="side-menu"]/li[11]/ul/li[1]/a
 # Home ReportsGeneration by filter Locators
 RG_btnGenReport="//*[@id='mat-dialog-0']/byte-report-popup/div[2]/div/button[1]"
 RG_btnCloseReport="//*[@id='mat-dialog-0']/byte-report-popup/div[1]/div/div/div/button"
@@ -193,7 +197,7 @@ RG_optMonthIC2 = "//*[@id='mat-option-9']"
 RG_sltYearIC = "//*[@id='mat-select-2']/div/div[1]"
 RG_optYearIC = "//*[@id='mat-option-15']"
 RG_optYearIC2 = "//*[@id='mat-option-3']"
-
+RG_optYearIC3 = "//*[@id='mat-option-16']"
 
 # Otros Comentarios
 # TipoDocContablemodEq = "//*[@id='mat-select-4']/div/div[1]"
