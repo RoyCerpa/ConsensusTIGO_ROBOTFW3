@@ -3,7 +3,9 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${env}  qa
-&{url}  qa=http://192.168.27.90:1102/latest/  dev=192.168.27.90:5002/latest/  qa2=http://192.168.27.90:1002/latest/
+&{url}  qa=http://192.168.27.90:1102/latest/  imp=192.168.27.90:5002/latest/  qa2=http://192.168.21.40:1102/consensus
+# URL: http://css-service.tbs.com:7081/consensus        # Credenciales: admin/baduka1190
+
 
 *** Keywords ***
 Start TestCase
@@ -15,6 +17,15 @@ Finish TestCase
 
 
 
+
+
+
+
+
+
+#Usuario :      admin
+#Password :  201adm$2k21
+#ruta: /cssfiles/csshared/in/sap/extban
 
 
 
