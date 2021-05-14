@@ -2,14 +2,13 @@
 # Gestor de Reportes Locators
 btn_GestorReport = "//*[@id='side-menu']/li[7]/a"
 lable_pageGestorReport = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
-opGestorReport1 = "//*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[1]/div/div/div[1]"
 
+opGestorReport1 = "//*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[1]/div/div/div[1]"
 btn_FechaInicioRecaudo1 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[1]/div/div[1]/div[2]/mat-datepicker-toggle/button"
 btn_SelectYearFechaInicio1 = "//*[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[1]"
 selectYearFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
 selectMesFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-year-view/table/tbody/tr[2]/td[4]/div"
 selectDayFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[1]/td[2]/div"
-
 btn_FechaFinRecaudo1 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[2]/div/div[1]/div[2]/mat-datepicker-toggle/button"
 btn_SelectYearFechaFin1 = "//*[@id='mat-datepicker-1']/mat-calendar-header/div/div/button[1]/span"
 selectYearFechaFin1 = "//*[@id='mat-datepicker-1']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
@@ -25,8 +24,21 @@ btn_generarReport1 = "//*[@id='mat-dialog-0']/byte-report-popup/div[2]/div/butto
 btn_closeReport1 = "//*[@id='mat-dialog-0']/byte-report-popup/div[1]/div/div/div/button"
 
 opGestorReport2 = "//*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[2]/div/div/div[1]"
-fechaInicioRecaudo2 = ""
-fechaFinRecaudo2 = ""
+btn_FechaInicioRecaudo2 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[1]/div/div[1]/div[2]/mat-datepicker-toggle/button"
+btn_SelectYearFechaInicio2 = "//*[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[1]"
+selectYearFechaInicio2 = "//*[@id='mat-datepicker-0']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
+selectMesFechaInicio2 = "//*[@id='mat-datepicker-0']/div/mat-year-view/table/tbody/tr[2]/td[4]/div"
+selectDayFechaInicio2 = "//*[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[1]/td[2]/div"
+btn_FechaFinRecaudo2 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[2]/div/div[1]/div[2]/mat-datepicker-toggle/button"
+btn_SelectYearFechaFin2 = "//*[@id='mat-datepicker-1']/mat-calendar-header/div/div/button[1]"
+selectYearFechaFin2 = "//*[@id='mat-datepicker-1']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
+selectMesFechaFin2 = "//*[@id='mat-datepicker-1']/div/mat-year-view/table/tbody/tr[2]/td[4]/div"
+selectDayFechaFin2 = "//*[@id='mat-datepicker-1']/div/mat-month-view/table/tbody/tr[5]/td[5]/div"
+selectLineaNegocio2 = "//*[@id='mat-select-1']/div/div[1]/span"
+lineaPrepago = "//*[@id='mat-option-12']"
+btn_generarReport2 = "//*[@id='mat-dialog-0']/byte-report-popup/div[2]/div/button[1]"
+btn_closeReport2 = "//*[@id='mat-dialog-0']/byte-report-popup/div[1]/div/div/div/button"
+
 
 # Ajustes Generales Locators
 btn_AjustGeneral = "//*[@id='side-menu']/li[2]/a"
