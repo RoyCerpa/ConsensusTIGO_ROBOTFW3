@@ -2,8 +2,8 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${env}  qa
-&{url}  qa=http://192.168.27.90:1102/latest/  imp=192.168.27.90:5002/latest/  qa2=http://192.168.21.40:1102/consensus
+${env}  imp
+&{url}  qa=http://192.168.27.90:1102/latest/  imp=http://192.168.27.90:5002/latest/  qa2=http://192.168.21.40:1102/consensus
 # URL: http://css-service.tbs.com:7081/consensus        # Credenciales: admin/baduka1190
 
 

@@ -7,7 +7,7 @@ Resource  ../Resources/PageObjects/HomePage.robot
 Variables  ../Resources/WebElements.py
 
 
-Library  DataDriver  ../TestData/TestData.csv
+Library  DataDriver  ../TestData/TestDataCSV.csv
 
 Test Setup      DDTcommon.Start TestCase
 Test Teardown   DDTcommon.Finish TestCase
