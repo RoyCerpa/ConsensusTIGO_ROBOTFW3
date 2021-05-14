@@ -7,6 +7,64 @@ btn_login = "xpath://*[@id='l-login']/button"
 iconoMainPage = "//*[@id='0side-menu']/li[1]/div[1]/img"
 iconoMainPagev2 = "//*[@id='logo_cliente']/img"
 
+# Gestor de Reportes Locators
+btn_GestorReport = "//*[@id='side-menu']/li[7]/a"
+lable_pageGestorReport = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+opGestorReport1 = "//*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[1]/div/div/div[1]"
+
+btn_FechaInicioRecaudo1 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[1]/div/div[1]/div[2]/mat-datepicker-toggle/button"
+btn_SelectYearFechaInicio1 = "//*[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[1]"
+selectYearFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
+selectMesFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-year-view/table/tbody/tr[2]/td[4]/div"
+selectDayFechaInicio1 = "//*[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[1]/td[2]/div"
+
+btn_FechaFinRecaudo1 = "//*[@id='mat-dialog-0']/byte-report-popup/mat-dialog-content/div/form/mat-form-field[2]/div/div[1]/div[2]/mat-datepicker-toggle/button"
+btn_SelectYearFechaFin1 = "//*[@id='mat-datepicker-1']/mat-calendar-header/div/div/button[1]/span"
+selectYearFechaFin1 = "//*[@id='mat-datepicker-1']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div"
+selectMesFechaFin1 = "//*[@id='mat-datepicker-1']/div/mat-year-view/table/tbody/tr[2]/td[4]/div"
+selectDayFechaFin1 = "//*[@id='mat-datepicker-1']/div/mat-month-view/table/tbody/tr[5]/td[5]/div"
+
+#fechaInicioRecaudo1 = "//*[@id='mat-input-0']"
+#fechaFinRecaudo1 = "//*[@id='mat-input-1']"
+
+selectLineaNegocio = "//*[@id='mat-select-1']/div/div[1]/span"
+lineaPospago = "//*[@id='mat-option-11']"
+btn_generarReport1 = "//*[@id='mat-dialog-0']/byte-report-popup/div[2]/div/button[1]"
+btn_closeReport1 = "//*[@id='mat-dialog-0']/byte-report-popup/div[1]/div/div/div/button"
+
+opGestorReport2 = "//*[@id='page-wrapper']/div/byte-report-manager/byte-report-widget/div/div[2]/div/div/div[1]"
+fechaInicioRecaudo2 = ""
+fechaFinRecaudo2 = ""
+
+# Ajustes Generales Locators
+btn_AjustGeneral = "//*[@id='side-menu']/li[2]/a"
+label_pageAjustGeneral = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
+linkInfoAjustGeneral = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[1]/div/a[1]"
+btn_EditInfoGeneral = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[1]/xdf-form-header/xdf-crud-detail-options-bar/div/button"
+nombreInfoGeneral = "//*[@id='mat-input-3']"
+correoInfoGeneral = "//*[@id='mat-input-4']"
+dominioInfoGeneral = "//*[@id='mat-input-5']"
+btn_SaveInfoGeneral = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[2]/div[2]/div/div/button"
+
+linkPassAjustGeneral = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[1]/div/a[2]"
+btn_EditPassword = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[1]/xdf-form-header/xdf-crud-detail-options-bar/div/button"
+OpcionPass1 = "//*[@id='mat-checkbox-6']/label/div"
+OpcionPass2 = "//*[@id='mat-checkbox-7']/label/div"
+OpcionPass3 = "//*[@id='mat-checkbox-8']/label/div"
+OpcionPass4 = "//*[@id='mat-checkbox-9']/label/div"
+OpcionPass5 = "//*[@id='mat-checkbox-10']/label/div"
+btn_SavePassword = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[2]/div[2]/div/div/button"
+
+linkPoliticAjustGeneral = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[1]/div/a[3]"
+btn_EditPolitUser = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[1]/xdf-form-header/xdf-crud-detail-options-bar/div/button"
+EditOpPolitUser1 = "//*[@id='mat-input-14']"
+EditOpPolitUser2 = "//*[@id='mat-input-15']"
+EditOpPolitUser3 = "//*[@id='mat-input-16']"
+EditOpPolitUser4 = "//*[@id='mat-input-17']"
+EditOpPolitUser5 = "//*[@id='mat-input-18']"
+selectOpPolitUser6 = "//*[@id='mat-checkbox-17']/label/div"
+btn_SavePolitUser = "//*[@id='page-wrapper']/div/xdf-tabs/div[1]/div/div[2]/xdf-form-view/form/div/div/div[2]/div[2]/div/div/button"
+
 # Tipo de Transacción Locators
 btn_TipoTrx = "//*[@id='side-menu']/li[5]/ul/li[10]/a"
 label_pageTipoTrx = "//*[@id='page-wrapper']/xdf-breadcrumb/div/div[1]/h2"
