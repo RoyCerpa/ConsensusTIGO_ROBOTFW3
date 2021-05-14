@@ -1,5 +1,6 @@
 *** Settings ***
 Library   SeleniumLibrary
+Variables  ../WebElementsBK.py
 Variables  ../WebElements.py
 
 *** Variables ***

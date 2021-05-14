@@ -1,6 +1,6 @@
 *** Settings ***
 Library   SeleniumLibrary
-Variables  ../WebElements.py
+Variables  ../WebElementsBK.py
 
 *** Variables ***
 ${AssertError}  Set variable  FALSE
