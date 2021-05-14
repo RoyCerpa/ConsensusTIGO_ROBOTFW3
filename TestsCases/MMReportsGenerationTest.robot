@@ -8,7 +8,7 @@ Resource  ../Resources/PageObjects/ReportsGenerationPage.robot
 Resource  ../Resources/PageObjects/ReportsGenerationCreatePage.robot
 
 Test Setup      CommonFunctionality.Start TestCase
-#Test Teardown   CommonFunctionality.Finish TestCase
+Test Teardown   CommonFunctionality.Finish TestCase
 
 *** Variables ***
 

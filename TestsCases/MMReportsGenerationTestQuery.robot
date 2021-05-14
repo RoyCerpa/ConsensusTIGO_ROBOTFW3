@@ -40,8 +40,11 @@ Verify basic LOGIN OK and Create NEW ReportsGeneration by qery EXCEL
     sleep  2s
     click element  //*[@id="page-wrapper"]/div/byte-user-inactivity-report/div/div/div/div[2]/div[1]/div/button
     sleep  2s
+    wait until element is visible  //*[@id="page-wrapper"]/div/byte-user-inactivity-report/div/div/div/div[2]/div[2]/div/byte-custom-data-table/div/div[2]/button[1]
+    sleep  2s
     click element  //*[@id="page-wrapper"]/div/byte-user-inactivity-report/div/div/div/div[2]/div[2]/div/byte-custom-data-table/div/div[2]/button[1]
-
+    sleep  2s
+    Page should contain  Inactividad de usuarios
 
 Verify basic LOGIN OK and Create NEW ReportsGeneration by qery PDF
     [Documentation]  This test case verifies logIN OK and NEW ReportsGeneration by DATE filter
@@ -70,4 +73,8 @@ Verify basic LOGIN OK and Create NEW ReportsGeneration by qery PDF
     sleep  2s
     click element  //*[@id="page-wrapper"]/div/byte-audit-of-account/div/div/div/div[2]/div[1]/div/button
     sleep  2s
+    wait until element is visible  //*[@id="page-wrapper"]/div/byte-audit-of-account/div/div/div/div[2]/div[2]/div/byte-custom-data-table/div/div[2]/button[2]
+    sleep  2s
     click element  //*[@id="page-wrapper"]/div/byte-audit-of-account/div/div/div/div[2]/div[2]/div/byte-custom-data-table/div/div[2]/button[2]
+    sleep  2s
+    Page should contain  Auditoría de cuentas
